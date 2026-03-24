@@ -1,0 +1,34 @@
+2026-01-14 22:06:10,778 INFO    MainThread:7343 [wandb_setup.py:_flush():76] Configure stats pid to 7343
+2026-01-14 22:06:10,778 INFO    MainThread:7343 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2026-01-14 22:06:10,778 INFO    MainThread:7343 [wandb_setup.py:_flush():76] Loading settings from /root/NavRL/isaac-training/training/scripts/test/wandb/settings
+2026-01-14 22:06:10,778 INFO    MainThread:7343 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2026-01-14 22:06:10,778 INFO    MainThread:7343 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'isaac-training/training/scripts/test/env_test.py', 'program': '/root/NavRL/isaac-training/training/scripts/test/env_test.py'}
+2026-01-14 22:06:10,778 INFO    MainThread:7343 [wandb_init.py:_log_setup():461] Logging user logs to /root/NavRL/isaac-training/training/scripts/test/wandb/offline-run-20260114_220610-m6r8sh1k/logs/debug.log
+2026-01-14 22:06:10,778 INFO    MainThread:7343 [wandb_init.py:_log_setup():462] Logging internal logs to /root/NavRL/isaac-training/training/scripts/test/wandb/offline-run-20260114_220610-m6r8sh1k/logs/debug-internal.log
+2026-01-14 22:06:10,779 INFO    MainThread:7343 [wandb_init.py:init():495] calling init triggers
+2026-01-14 22:06:10,779 INFO    MainThread:7343 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2026-01-14 22:06:10,780 INFO    MainThread:7343 [wandb_init.py:init():548] starting backend
+2026-01-14 22:06:10,780 INFO    MainThread:7343 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2026-01-14 22:06:10,909 INFO    MainThread:7343 [backend.py:ensure_launched():217] starting backend process...
+2026-01-14 22:06:10,911 INFO    MainThread:7343 [backend.py:ensure_launched():222] started backend process with pid: 8046
+2026-01-14 22:06:10,912 INFO    MainThread:7343 [wandb_init.py:init():558] backend started and connected
+2026-01-14 22:06:10,921 INFO    MainThread:7343 [wandb_init.py:init():634] updated telemetry
+2026-01-14 22:06:10,931 INFO    MainThread:7343 [wandb_init.py:init():700] starting run threads in backend
+2026-01-14 22:06:12,740 INFO    MainThread:7343 [wandb_run.py:_console_start():1893] atexit reg
+2026-01-14 22:06:12,741 INFO    MainThread:7343 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.REDIRECT
+2026-01-14 22:06:12,742 INFO    MainThread:7343 [wandb_run.py:_redirect():1771] Redirecting console.
+2026-01-14 22:06:12,744 INFO    MainThread:7343 [wandb_run.py:_redirect():1827] Redirects installed.
+2026-01-14 22:06:12,744 INFO    MainThread:7343 [wandb_init.py:init():732] run started, returning control to user process
+2026-01-14 22:08:15,810 INFO    MainThread:7343 [wandb_run.py:_finish():1680] finishing run rongrongdeng862-jilin-university/NavRL/m6r8sh1k
+2026-01-14 22:08:15,810 INFO    MainThread:7343 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2026-01-14 22:08:15,812 INFO    MainThread:7343 [wandb_run.py:_restore():1834] restore
+2026-01-14 22:08:18,190 INFO    MainThread:7343 [wandb_run.py:_on_finish():1991] got exit ret: 
+2026-01-14 22:08:18,293 INFO    MainThread:7343 [wandb_run.py:_on_finish():1991] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+
+2026-01-14 22:08:19,455 INFO    MainThread:7343 [wandb_run.py:_footer_history_summary_info():3099] rendering history
+2026-01-14 22:08:19,456 INFO    MainThread:7343 [wandb_run.py:_footer_history_summary_info():3131] rendering summary

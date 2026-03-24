@@ -1,0 +1,13 @@
+[2025-11-24 12:08:47,809][asyncio][DEBUG] - Using selector: EpollSelector
+[2025-11-24 12:08:49,449][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-11-24 12:08:49,449][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-11-24 12:08:55,969][omni.kit.profiler.window][WARNING] - remove _SpanInstance.__lt__ and use insort 'key' arg instead
+[2025-11-24 12:09:05,039][git.util][DEBUG] - sys.platform='linux', git_executable='git'
+[2025-11-24 12:09:05,040][git.cmd][DEBUG] - Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/root/NavRL, stdin=None, shell=False, universal_newlines=False)
+[2025-11-24 12:09:05,306][urllib3.connectionpool][DEBUG] - Starting new HTTPS connection (1): api.wandb.ai:443
+[2025-11-24 12:09:05,952][urllib3.connectionpool][DEBUG] - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+[2025-11-24 12:09:05,958][urllib3.connectionpool][DEBUG] - Starting new HTTPS connection (1): api.wandb.ai:443
+[2025-11-24 12:09:06,645][urllib3.connectionpool][DEBUG] - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+[2025-11-24 12:09:06,672][git.util][DEBUG] - sys.platform='linux', git_executable='git'
+[2025-11-24 12:09:06,675][git.cmd][DEBUG] - Popen(['git', 'cat-file', '--batch-check'], cwd=/root/NavRL, stdin=<valid stream>, shell=False, universal_newlines=False)
+[2025-11-24 12:11:22,910][trimesh.util][DEBUG] - falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks

@@ -1,0 +1,29 @@
+[2025-12-19 17:56:38,079][asyncio][DEBUG] - Using selector: EpollSelector
+[2025-12-19 17:56:39,457][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-12-19 17:56:39,457][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-12-19 17:56:42,849][omni.kit.profiler.window][WARNING] - remove _SpanInstance.__lt__ and use insort 'key' arg instead
+[2025-12-19 17:59:01,392][trimesh.util][DEBUG] - falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+[2025-12-19 17:59:01,934][git.util][DEBUG] - sys.platform='linux', git_executable='git'
+[2025-12-19 17:59:01,935][git.cmd][DEBUG] - Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/root/NavRL, stdin=None, shell=False, universal_newlines=False)
+[2025-12-19 17:59:02,032][urllib3.connectionpool][DEBUG] - Starting new HTTPS connection (1): api.wandb.ai:443
+[2025-12-19 17:59:02,762][urllib3.connectionpool][DEBUG] - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+[2025-12-19 17:59:02,765][urllib3.connectionpool][DEBUG] - Starting new HTTPS connection (1): api.wandb.ai:443
+[2025-12-19 17:59:03,577][urllib3.connectionpool][DEBUG] - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+[2025-12-19 17:59:03,595][git.util][DEBUG] - sys.platform='linux', git_executable='git'
+[2025-12-19 17:59:03,597][git.cmd][DEBUG] - Popen(['git', 'cat-file', '--batch-check'], cwd=/root/NavRL, stdin=<valid stream>, shell=False, universal_newlines=False)
+[2025-12-19 17:59:07,633][root][INFO] - Reading Hummingbird's params from /root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/robots/assets/usd/hummingbird.yaml.
+[2025-12-19 17:59:09,121][trimesh.util][DEBUG] - 2 items cleared from cache: ['face_normals', 'triangles']
+[2025-12-19 18:00:11,115][root][INFO] - Default parameters:
+Mass: [[0.6800000071525574]]
+Inertia: [[0.007000000681728125, 0.007000000681728125, 0.011999999172985554]]
+Thrust2Weight: [[0.8999204039573669, 0.8999204039573669, 0.8999204039573669, 0.8999204039573669]]
+Force2Moment: [[62.499996185302734, 62.499996185302734, 62.499996185302734, 62.499996185302734]]
+[2025-12-19 18:03:14,507][matplotlib][DEBUG] - matplotlib data path: /root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/exts/omni.isaac.core_archive/pip_prebundle/matplotlib/mpl-data
+[2025-12-19 18:03:14,513][matplotlib][DEBUG] - CONFIGDIR=/root/.config/matplotlib
+[2025-12-19 18:03:14,514][matplotlib][DEBUG] - interactive is False
+[2025-12-19 18:03:14,514][matplotlib][DEBUG] - platform is linux
+[2025-12-19 18:03:14,562][matplotlib][DEBUG] - CACHEDIR=/root/.cache/matplotlib
+[2025-12-19 18:03:14,563][matplotlib.font_manager][DEBUG] - Using fontManager instance from /root/.cache/matplotlib/fontlist-v330.json
+[2025-12-19 18:03:18,833][py.warnings][WARNING] - /root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/_functorch/deprecated.py:61: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+  warn_deprecated('vmap', 'torch.vmap')
+

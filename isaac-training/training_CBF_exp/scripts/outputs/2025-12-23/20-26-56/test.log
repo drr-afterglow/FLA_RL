@@ -1,0 +1,18 @@
+[2025-12-23 20:26:57,582][asyncio][DEBUG] - Using selector: EpollSelector
+[2025-12-23 20:26:58,850][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-12-23 20:26:58,851][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-12-23 20:27:03,880][omni.kit.profiler.window][WARNING] - remove _SpanInstance.__lt__ and use insort 'key' arg instead
+[2025-12-23 20:29:24,723][trimesh.util][DEBUG] - falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+[2025-12-23 20:29:25,203][git.cmd][DEBUG] - Popen(['git', 'version'], cwd=/root/NavRL/isaac-training/training/scripts, stdin=None, shell=False, universal_newlines=False)
+[2025-12-23 20:29:25,210][git.cmd][DEBUG] - Popen(['git', 'version'], cwd=/root/NavRL/isaac-training/training/scripts, stdin=None, shell=False, universal_newlines=False)
+[2025-12-23 20:29:25,257][h5py._conv][DEBUG] - Creating converter from 7 to 5
+[2025-12-23 20:29:25,257][h5py._conv][DEBUG] - Creating converter from 5 to 7
+[2025-12-23 20:29:25,257][h5py._conv][DEBUG] - Creating converter from 7 to 5
+[2025-12-23 20:29:25,257][h5py._conv][DEBUG] - Creating converter from 5 to 7
+[2025-12-23 20:29:25,770][root][INFO] - Reading Hummingbird's params from /root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/robots/assets/usd/hummingbird.yaml.
+[2025-12-23 20:29:26,774][trimesh.util][DEBUG] - 2 items cleared from cache: ['face_normals', 'triangles']
+[2025-12-23 20:29:39,889][root][INFO] - Default parameters:
+Mass: [[0.6800000071525574]]
+Inertia: [[0.007000000681728125, 0.007000000681728125, 0.011999999172985554]]
+Thrust2Weight: [[0.8999204039573669, 0.8999204039573669, 0.8999204039573669, 0.8999204039573669]]
+Force2Moment: [[62.499996185302734, 62.499996185302734, 62.499996185302734, 62.499996185302734]]

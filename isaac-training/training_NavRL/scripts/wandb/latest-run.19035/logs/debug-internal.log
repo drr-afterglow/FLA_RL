@@ -1,0 +1,606 @@
+2025-12-17 23:38:54,629 INFO    MainThread:20079 [internal.py:wandb_internal():90] W&B internal server running at pid: 20079, started at: 2025-12-17 23:38:54.629069
+2025-12-17 23:38:54,631 INFO    WriterThread:20079 [datastore.py:open_for_write():75] open: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/run-hev18f7d.wandb
+2025-12-17 23:38:54,835 DEBUG   SenderThread:20079 [sender.py:send():236] send: header
+2025-12-17 23:38:54,835 DEBUG   SenderThread:20079 [sender.py:send():236] send: run
+2025-12-17 23:38:55,667 INFO    SenderThread:20079 [dir_watcher.py:__init__():216] watching files in: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files
+2025-12-17 23:38:55,667 INFO    SenderThread:20079 [sender.py:_start_run_threads():815] run started: hev18f7d with start time 1765985934
+2025-12-17 23:38:55,667 DEBUG   SenderThread:20079 [sender.py:send():236] send: summary
+2025-12-17 23:38:55,668 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-12-17 23:38:55,673 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: check_version
+2025-12-17 23:38:55,673 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: check_version
+2025-12-17 23:38:56,670 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/wandb-summary.json
+2025-12-17 23:38:56,867 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: run_start
+2025-12-17 23:38:56,924 DEBUG   HandlerThread:20079 [meta.py:__init__():35] meta init
+2025-12-17 23:38:56,924 DEBUG   HandlerThread:20079 [meta.py:__init__():49] meta init done
+2025-12-17 23:38:56,924 DEBUG   HandlerThread:20079 [meta.py:probe():209] probe
+2025-12-17 23:38:56,932 DEBUG   HandlerThread:20079 [meta.py:_setup_git():199] setup git
+2025-12-17 23:38:56,944 DEBUG   HandlerThread:20079 [meta.py:_setup_git():206] setup git done
+2025-12-17 23:38:56,944 DEBUG   HandlerThread:20079 [meta.py:_save_pip():53] save pip
+2025-12-17 23:38:56,945 DEBUG   HandlerThread:20079 [meta.py:_save_pip():67] save pip done
+2025-12-17 23:38:56,945 DEBUG   HandlerThread:20079 [meta.py:_save_conda():74] save conda
+2025-12-17 23:38:57,374 DEBUG   HandlerThread:20079 [meta.py:_save_conda():84] save conda done
+2025-12-17 23:38:57,374 DEBUG   HandlerThread:20079 [meta.py:probe():247] probe done
+2025-12-17 23:38:57,489 DEBUG   SenderThread:20079 [sender.py:send():236] send: files
+2025-12-17 23:38:57,489 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2025-12-17 23:38:57,497 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:38:57,497 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:38:57,667 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/wandb-metadata.json
+2025-12-17 23:38:57,669 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/conda-environment.yaml
+2025-12-17 23:38:57,669 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/requirements.txt
+2025-12-17 23:38:57,670 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:38:58,170 DEBUG   SenderThread:20079 [sender.py:send():236] send: telemetry
+2025-12-17 23:38:59,233 INFO    Thread-11 :20079 [upload_job.py:push():138] Uploaded file /tmp/tmpers3luttwandb/noup5kng-wandb-metadata.json
+2025-12-17 23:39:09,672 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:39:13,172 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:39:13,173 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:39:25,102 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:39:26,680 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/config.yaml
+2025-12-17 23:39:28,909 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:39:28,909 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:39:44,601 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:39:44,602 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:39:55,243 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:40:00,320 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:40:00,320 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:40:16,061 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:40:16,062 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:40:25,387 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:40:31,879 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:40:31,880 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:40:47,608 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:40:47,608 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:40:55,525 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:41:03,728 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:41:03,728 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:41:09,727 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:41:12,730 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:41:14,731 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:41:19,490 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:41:19,491 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:41:25,803 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:41:28,830 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:41:35,330 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:41:35,330 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:41:46,838 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:41:51,232 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:41:51,233 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:41:56,574 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:42:02,846 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:04,930 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:05,931 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:06,932 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:07,030 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:42:07,031 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:42:16,936 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:18,937 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:20,938 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:22,939 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:23,234 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:42:23,235 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:42:24,940 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:26,941 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:27,362 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:42:28,942 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:30,943 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:32,945 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:34,946 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:36,947 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:38,948 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:39,031 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:42:39,032 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:42:41,030 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:43,032 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:45,033 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:47,034 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:49,035 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:51,036 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:53,037 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:54,834 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:42:54,835 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:42:55,038 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:57,039 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:42:58,146 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:42:59,040 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:01,041 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:03,042 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:05,043 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:07,045 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:09,046 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:10,633 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:43:10,634 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:43:11,047 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:13,048 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:15,133 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:17,050 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:19,050 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:21,051 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:23,052 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:25,053 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:26,532 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:43:26,532 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:43:27,129 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:28,849 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:43:29,055 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:31,056 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:33,057 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:35,058 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:37,059 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:39,060 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:41,061 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:42,237 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:43:42,237 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:43:43,062 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:45,129 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:47,064 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:49,130 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:51,131 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:53,132 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:55,133 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:57,134 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:58,234 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:43:58,234 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:43:59,135 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:43:59,462 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:44:01,136 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:03,137 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:05,138 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:07,139 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:09,140 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:11,141 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:13,142 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:13,974 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:44:13,974 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:44:15,143 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:17,144 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:19,230 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:21,231 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:23,232 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:25,233 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:27,234 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:29,235 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:29,737 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:44:29,737 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:44:30,530 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:44:31,236 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:33,237 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:35,237 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:37,238 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:39,239 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:41,240 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:43,241 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:45,242 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:45,533 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:44:45,533 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:44:47,243 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:49,244 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:51,245 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:53,246 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:55,247 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:57,248 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:44:59,249 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:00,761 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:45:01,250 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:01,377 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:45:01,377 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:45:03,251 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:05,331 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:07,331 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:09,332 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:11,333 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:13,334 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:15,335 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:17,234 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:45:17,234 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:45:17,336 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:19,338 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:21,339 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:23,340 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:25,341 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:27,342 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:29,343 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:31,344 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:31,730 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:45:33,134 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:45:33,134 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:45:33,345 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:35,346 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:45,350 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:47,351 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:49,311 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:45:49,312 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:45:50,187 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: partial_history
+2025-12-17 23:45:50,205 DEBUG   SenderThread:20079 [sender.py:send():236] send: files
+2025-12-17 23:45:50,206 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file media/videos/recording_0_14b67e448020caa121fd.mp4 with policy now
+2025-12-17 23:45:50,206 DEBUG   SenderThread:20079 [sender.py:send():236] send: history
+2025-12-17 23:45:50,206 DEBUG   SenderThread:20079 [sender.py:send():236] send: summary
+2025-12-17 23:45:50,209 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-12-17 23:45:50,353 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/wandb-summary.json
+2025-12-17 23:45:50,353 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media/videos/recording_0_14b67e448020caa121fd.mp4
+2025-12-17 23:45:50,353 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media
+2025-12-17 23:45:50,353 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media/videos
+2025-12-17 23:45:51,353 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:53,355 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:55,356 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:57,357 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:45:59,430 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:01,431 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:01,961 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:46:03,432 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:05,230 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:46:05,230 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:46:05,433 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:07,435 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:09,436 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:11,437 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:13,438 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:15,440 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:17,441 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:19,529 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:21,330 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:46:21,331 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:46:21,443 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:23,444 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:25,445 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:27,447 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:29,448 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:31,449 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:32,744 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:46:33,450 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:35,451 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:37,434 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:46:37,434 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:46:37,452 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:39,453 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:41,454 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:43,455 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:45,457 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:47,458 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:49,459 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:51,530 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:53,142 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:46:53,143 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:46:53,462 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:55,463 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:57,464 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:46:59,465 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:01,467 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:03,447 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:47:03,468 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:05,469 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:07,470 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:08,865 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:47:08,866 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:47:09,471 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:11,473 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:13,474 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:15,475 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:17,476 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:19,478 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:21,479 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:23,480 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:24,540 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:47:24,541 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:47:25,482 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:27,529 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:29,484 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:31,485 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:33,486 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:34,157 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:47:35,488 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:37,489 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:39,490 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:40,348 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:47:40,349 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:47:41,491 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:43,530 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:45,531 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:47,532 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:49,534 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:51,535 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:53,536 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:55,538 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:56,234 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:47:56,234 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:47:57,539 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:47:59,540 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:01,541 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:03,543 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:04,949 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:48:06,545 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:08,546 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:10,547 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:12,034 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:48:12,035 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:48:12,549 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:14,550 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:14,630 INFO    Thread-12 :20079 [upload_job.py:push():138] Uploaded file /tmp/tmpers3luttwandb/nqfoe7ao-media/videos/recording_0_14b67e448020caa121fd.mp4
+2025-12-17 23:48:16,551 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:18,552 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:20,553 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:22,630 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:24,632 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:26,633 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:28,034 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:48:28,034 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:48:28,634 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:30,636 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:32,637 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:34,640 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:35,748 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:48:36,640 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:38,641 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:40,642 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:42,644 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:43,961 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:48:43,961 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:48:44,645 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:46,646 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:48,647 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:50,730 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:52,731 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:54,732 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:56,733 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:58,735 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:48:59,929 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:48:59,930 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:49:00,736 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:02,737 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:04,738 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:06,559 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:49:06,740 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:08,741 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:15,734 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:49:15,734 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:49:22,218 DEBUG   SenderThread:20079 [sender.py:send():236] send: files
+2025-12-17 23:49:22,219 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: partial_history
+2025-12-17 23:49:22,219 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file media/videos/recording_1_c75a9f5bfe83a636b004.mp4 with policy now
+2025-12-17 23:49:22,221 DEBUG   SenderThread:20079 [sender.py:send():236] send: history
+2025-12-17 23:49:22,221 DEBUG   SenderThread:20079 [sender.py:send():236] send: summary
+2025-12-17 23:49:22,224 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-12-17 23:49:22,749 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/wandb-summary.json
+2025-12-17 23:49:22,750 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media/videos/recording_1_c75a9f5bfe83a636b004.mp4
+2025-12-17 23:49:22,750 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media/videos
+2025-12-17 23:49:23,750 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:25,751 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:26,356 INFO    Thread-13 :20079 [upload_job.py:push():138] Uploaded file /tmp/tmpers3luttwandb/u8y7zaq2-media/videos/recording_1_c75a9f5bfe83a636b004.mp4
+2025-12-17 23:49:26,752 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:28,754 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:30,755 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:31,529 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:49:31,530 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:49:32,829 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:34,830 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:36,831 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:37,061 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:49:38,832 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:40,833 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:42,834 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:44,836 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:46,837 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:47,268 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:49:47,269 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:49:48,838 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:50,839 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:52,840 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:54,842 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:56,843 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:49:58,844 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:00,846 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:02,847 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:03,430 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:50:03,431 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:50:04,848 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:06,849 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:07,863 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:50:08,851 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:10,930 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:12,931 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:14,933 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:16,934 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:18,935 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:19,234 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:50:19,236 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:50:20,937 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:22,938 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:24,939 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:26,941 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:28,942 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:30,943 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:33,030 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:35,032 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:35,131 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:50:35,132 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:50:37,033 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:38,836 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:50:39,036 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:41,037 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:43,038 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:45,040 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:47,041 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:49,045 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:51,047 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:51,052 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:50:51,053 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:50:53,048 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:55,050 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:57,131 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:50:59,132 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:01,134 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:03,135 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:05,137 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:06,832 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:51:06,832 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:51:07,138 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:09,139 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:09,469 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:51:11,140 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:13,142 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:15,143 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:17,144 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:19,145 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:21,147 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:22,534 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:51:22,534 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:51:23,148 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:25,230 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:27,232 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:29,233 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:31,234 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:33,236 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:35,237 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:37,239 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:38,234 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:51:38,234 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:51:39,240 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:40,345 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:51:41,241 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:43,243 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:45,244 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:47,245 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:49,247 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:51,248 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:53,249 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:54,093 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:51:54,093 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:51:55,250 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:57,252 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:51:59,253 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:01,254 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:03,255 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:05,257 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:07,258 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:09,259 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:09,830 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:52:09,830 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:52:11,165 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:52:11,330 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:13,331 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:15,333 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:17,334 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:19,336 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:21,337 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:23,339 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:25,340 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:25,578 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:52:25,578 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:52:27,341 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:29,342 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:31,343 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:33,344 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:35,345 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:37,347 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:39,348 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:41,253 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:52:41,254 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:52:41,430 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:42,150 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:52:43,431 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:45,432 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:47,433 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:52:57,152 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:52:57,152 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:53:01,406 DEBUG   SenderThread:20079 [sender.py:send():236] send: files
+2025-12-17 23:53:01,407 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: partial_history
+2025-12-17 23:53:01,408 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file media/videos/recording_2_818aff9effd8abcaef6f.mp4 with policy now
+2025-12-17 23:53:01,409 DEBUG   SenderThread:20079 [sender.py:send():236] send: history
+2025-12-17 23:53:01,410 DEBUG   SenderThread:20079 [sender.py:send():236] send: summary
+2025-12-17 23:53:01,413 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-12-17 23:53:01,440 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/wandb-summary.json
+2025-12-17 23:53:01,440 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_created():269] file/dir created: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media/videos/recording_2_818aff9effd8abcaef6f.mp4
+2025-12-17 23:53:01,440 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media/videos
+2025-12-17 23:53:02,440 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:04,442 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:05,389 INFO    Thread-14 :20079 [upload_job.py:push():138] Uploaded file /tmp/tmpers3luttwandb/pqrkzwx3-media/videos/recording_2_818aff9effd8abcaef6f.mp4
+2025-12-17 23:53:05,443 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:07,445 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:09,446 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:11,447 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:12,152 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:53:12,868 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:53:12,869 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:53:13,449 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:15,450 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:17,531 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:19,532 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:21,533 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:23,535 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:25,536 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:27,537 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:28,771 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: stop_status
+2025-12-17 23:53:28,771 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: stop_status
+2025-12-17 23:53:29,539 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:31,541 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:33,542 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:35,543 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:37,545 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:37,776 WARNING MainThread:20079 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2025-12-17 23:53:38,512 DEBUG   SenderThread:20079 [sender.py:send():236] send: telemetry
+2025-12-17 23:53:38,546 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:39,546 INFO    Thread-7  :20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:40,609 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: poll_exit
+2025-12-17 23:53:40,609 DEBUG   SenderThread:20079 [sender.py:send():236] send: exit
+2025-12-17 23:53:40,609 INFO    SenderThread:20079 [sender.py:send_exit():372] handling exit code: 1
+2025-12-17 23:53:40,610 INFO    SenderThread:20079 [sender.py:send_exit():374] handling runtime: 883
+2025-12-17 23:53:40,610 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-12-17 23:53:40,611 INFO    SenderThread:20079 [sender.py:send_exit():380] send defer
+2025-12-17 23:53:40,611 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: poll_exit
+2025-12-17 23:53:40,612 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: defer
+2025-12-17 23:53:40,612 INFO    HandlerThread:20079 [handler.py:handle_request_defer():163] handle defer: 0
+2025-12-17 23:53:40,612 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: defer
+2025-12-17 23:53:40,612 INFO    SenderThread:20079 [sender.py:send_request_defer():389] handle sender defer: 0
+2025-12-17 23:53:40,612 INFO    SenderThread:20079 [sender.py:transition_state():393] send defer: 1
+2025-12-17 23:53:40,613 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: defer
+2025-12-17 23:53:40,613 INFO    HandlerThread:20079 [handler.py:handle_request_defer():163] handle defer: 1
+2025-12-17 23:53:40,671 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: defer
+2025-12-17 23:53:40,671 INFO    SenderThread:20079 [sender.py:send_request_defer():389] handle sender defer: 1
+2025-12-17 23:53:40,671 INFO    SenderThread:20079 [sender.py:transition_state():393] send defer: 2
+2025-12-17 23:53:40,672 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: defer
+2025-12-17 23:53:40,672 DEBUG   SenderThread:20079 [sender.py:send():236] send: stats
+2025-12-17 23:53:40,672 INFO    HandlerThread:20079 [handler.py:handle_request_defer():163] handle defer: 2
+2025-12-17 23:53:40,673 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: defer
+2025-12-17 23:53:40,673 INFO    SenderThread:20079 [sender.py:send_request_defer():389] handle sender defer: 2
+2025-12-17 23:53:40,673 INFO    SenderThread:20079 [sender.py:transition_state():393] send defer: 3
+2025-12-17 23:53:40,673 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: defer
+2025-12-17 23:53:40,673 INFO    HandlerThread:20079 [handler.py:handle_request_defer():163] handle defer: 3
+2025-12-17 23:53:40,673 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: defer
+2025-12-17 23:53:40,673 INFO    SenderThread:20079 [sender.py:send_request_defer():389] handle sender defer: 3
+2025-12-17 23:53:40,673 INFO    SenderThread:20079 [sender.py:transition_state():393] send defer: 4
+2025-12-17 23:53:40,674 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: defer
+2025-12-17 23:53:40,674 INFO    HandlerThread:20079 [handler.py:handle_request_defer():163] handle defer: 4
+2025-12-17 23:53:40,674 DEBUG   SenderThread:20079 [sender.py:send():236] send: summary
+2025-12-17 23:53:40,674 INFO    SenderThread:20079 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-12-17 23:53:40,675 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: defer
+2025-12-17 23:53:40,675 INFO    SenderThread:20079 [sender.py:send_request_defer():389] handle sender defer: 4
+2025-12-17 23:53:40,675 INFO    SenderThread:20079 [sender.py:transition_state():393] send defer: 5
+2025-12-17 23:53:40,675 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: defer
+2025-12-17 23:53:40,675 INFO    HandlerThread:20079 [handler.py:handle_request_defer():163] handle defer: 5
+2025-12-17 23:53:40,675 DEBUG   SenderThread:20079 [sender.py:send_request():250] send_request: defer
+2025-12-17 23:53:40,675 INFO    SenderThread:20079 [sender.py:send_request_defer():389] handle sender defer: 5
+2025-12-17 23:53:40,713 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: poll_exit
+2025-12-17 23:53:40,997 WARNING MainThread:20079 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2025-12-17 23:53:40,997 ERROR   MainThread:20079 [internal.py:wandb_internal():156] Internal process interrupted.
+2025-12-17 23:53:41,369 INFO    SenderThread:20079 [sender.py:transition_state():393] send defer: 6
+2025-12-17 23:53:41,369 INFO    SenderThread:20079 [sender.py:finish():1114] shutting down sender
+2025-12-17 23:53:41,369 INFO    SenderThread:20079 [dir_watcher.py:finish():353] shutting down directory watcher
+2025-12-17 23:53:41,369 DEBUG   HandlerThread:20079 [handler.py:handle_request():140] handle_request: defer
+2025-12-17 23:53:41,370 INFO    HandlerThread:20079 [handler.py:handle_request_defer():163] handle defer: 6
+2025-12-17 23:53:41,370 INFO    HandlerThread:20079 [handler.py:finish():806] shutting down handler
+2025-12-17 23:53:41,548 INFO    SenderThread:20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/wandb-summary.json
+2025-12-17 23:53:41,549 INFO    SenderThread:20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log
+2025-12-17 23:53:41,549 INFO    SenderThread:20079 [dir_watcher.py:_on_file_modified():286] file/dir modified: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/config.yaml
+2025-12-17 23:53:41,549 INFO    SenderThread:20079 [dir_watcher.py:finish():383] scan: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files
+2025-12-17 23:53:41,549 INFO    SenderThread:20079 [dir_watcher.py:finish():397] scan save: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/config.yaml config.yaml
+2025-12-17 23:53:41,549 INFO    SenderThread:20079 [dir_watcher.py:finish():397] scan save: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/wandb-summary.json wandb-summary.json
+2025-12-17 23:53:41,550 INFO    SenderThread:20079 [dir_watcher.py:finish():397] scan save: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/requirements.txt requirements.txt
+2025-12-17 23:53:41,550 INFO    SenderThread:20079 [dir_watcher.py:finish():397] scan save: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/conda-environment.yaml conda-environment.yaml
+2025-12-17 23:53:41,553 INFO    SenderThread:20079 [dir_watcher.py:finish():397] scan save: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/wandb-metadata.json wandb-metadata.json
+2025-12-17 23:53:41,556 INFO    SenderThread:20079 [dir_watcher.py:finish():397] scan save: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/output.log output.log
+2025-12-17 23:53:41,564 INFO    SenderThread:20079 [dir_watcher.py:finish():397] scan save: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media/videos/recording_0_14b67e448020caa121fd.mp4 media/videos/recording_0_14b67e448020caa121fd.mp4
+2025-12-17 23:53:41,564 INFO    SenderThread:20079 [dir_watcher.py:finish():397] scan save: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media/videos/recording_1_c75a9f5bfe83a636b004.mp4 media/videos/recording_1_c75a9f5bfe83a636b004.mp4
+2025-12-17 23:53:41,564 INFO    SenderThread:20079 [dir_watcher.py:finish():397] scan save: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/media/videos/recording_2_818aff9effd8abcaef6f.mp4 media/videos/recording_2_818aff9effd8abcaef6f.mp4
+2025-12-17 23:53:41,564 INFO    SenderThread:20079 [file_pusher.py:finish():171] shutting down file pusher
+2025-12-17 23:53:41,565 INFO    SenderThread:20079 [file_pusher.py:join():176] waiting for file pusher
+2025-12-17 23:53:41,675 INFO    WriterThread:20079 [datastore.py:close():279] close: /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/run-hev18f7d.wandb
+2025-12-17 23:53:43,203 INFO    Thread-15 :20079 [upload_job.py:push():138] Uploaded file /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/config.yaml
+2025-12-17 23:53:43,334 INFO    Thread-16 :20079 [upload_job.py:push():138] Uploaded file /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/wandb-summary.json
+2025-12-17 23:53:43,343 INFO    Thread-17 :20079 [upload_job.py:push():138] Uploaded file /root/NavRL/isaac-training/training/scripts/wandb/run-20251217_233854-hev18f7d/files/requirements.txt

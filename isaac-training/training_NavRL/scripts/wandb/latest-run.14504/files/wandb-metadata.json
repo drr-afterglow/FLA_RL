@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.0-101-generic-x86_64-with-glibc2.31",
+    "python": "3.10.19",
+    "heartbeatAt": "2025-12-19T09:37:31.689564",
+    "startedAt": "2025-12-19T09:37:28.558632",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 4090 D",
+    "gpu_count": 1,
+    "cpu_count": 256,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/root/NavRL/isaac-training/training/scripts/test.py",
+    "codePath": "isaac-training/training/scripts/test.py",
+    "git": {
+        "remote": "https://github.com/Zhefan-Xu/NavRL.git",
+        "commit": "3725bcc2e7c1be4ecf1455d922299ae85042603a"
+    },
+    "email": null,
+    "root": "/root/NavRL",
+    "host": "autodl-container-acc74a8ccc-cefb9fce",
+    "username": "root",
+    "executable": "/root/miniconda3/envs/NavRL/bin/python"
+}

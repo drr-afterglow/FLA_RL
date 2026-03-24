@@ -1,0 +1,26 @@
+[2025-12-11 18:41:31,070][asyncio][DEBUG] - Using selector: EpollSelector
+[2025-12-11 18:41:32,604][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-12-11 18:41:32,605][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-12-11 18:41:37,374][omni.kit.profiler.window][WARNING] - remove _SpanInstance.__lt__ and use insort 'key' arg instead
+[2025-12-11 18:41:45,227][git.util][DEBUG] - sys.platform='linux', git_executable='git'
+[2025-12-11 18:41:45,228][git.cmd][DEBUG] - Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/root/NavRL, stdin=None, shell=False, universal_newlines=False)
+[2025-12-11 18:41:45,610][urllib3.connectionpool][DEBUG] - Starting new HTTPS connection (1): api.wandb.ai:443
+[2025-12-11 18:41:46,262][urllib3.connectionpool][DEBUG] - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+[2025-12-11 18:41:46,266][urllib3.connectionpool][DEBUG] - Starting new HTTPS connection (1): api.wandb.ai:443
+[2025-12-11 18:41:47,034][urllib3.connectionpool][DEBUG] - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+[2025-12-11 18:41:47,076][git.util][DEBUG] - sys.platform='linux', git_executable='git'
+[2025-12-11 18:41:47,081][git.cmd][DEBUG] - Popen(['git', 'cat-file', '--batch-check'], cwd=/root/NavRL, stdin=<valid stream>, shell=False, universal_newlines=False)
+[2025-12-11 18:44:03,889][trimesh.util][DEBUG] - falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+[2025-12-11 18:44:04,555][root][INFO] - Reading Hummingbird's params from /root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/robots/assets/usd/hummingbird.yaml.
+[2025-12-11 18:44:05,749][trimesh.util][DEBUG] - 2 items cleared from cache: ['face_normals', 'triangles']
+[2025-12-11 18:44:42,867][root][INFO] - Default parameters:
+Mass: [[0.6800000071525574]]
+Inertia: [[0.007000000681728125, 0.007000000681728125, 0.011999999172985554]]
+Thrust2Weight: [[0.8999204039573669, 0.8999204039573669, 0.8999204039573669, 0.8999204039573669]]
+Force2Moment: [[62.499996185302734, 62.499996185302734, 62.499996185302734, 62.499996185302734]]
+[2025-12-11 18:47:09,826][matplotlib][DEBUG] - matplotlib data path: /root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/exts/omni.isaac.core_archive/pip_prebundle/matplotlib/mpl-data
+[2025-12-11 18:47:09,835][matplotlib][DEBUG] - CONFIGDIR=/root/.config/matplotlib
+[2025-12-11 18:47:09,838][matplotlib][DEBUG] - interactive is False
+[2025-12-11 18:47:09,839][matplotlib][DEBUG] - platform is linux
+[2025-12-11 18:47:09,930][matplotlib][DEBUG] - CACHEDIR=/root/.cache/matplotlib
+[2025-12-11 18:47:09,931][matplotlib.font_manager][DEBUG] - Using fontManager instance from /root/.cache/matplotlib/fontlist-v330.json

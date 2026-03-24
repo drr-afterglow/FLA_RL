@@ -1,0 +1,20 @@
+[2025-12-10 21:23:06,228][asyncio][DEBUG] - Using selector: EpollSelector
+[2025-12-10 21:23:07,667][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-12-10 21:23:07,668][omni.kit.telemetry.impl.sentry_extension][INFO] - sentry is disabled for external build
+[2025-12-10 21:23:12,585][omni.kit.profiler.window][WARNING] - remove _SpanInstance.__lt__ and use insort 'key' arg instead
+[2025-12-10 21:23:21,439][git.util][DEBUG] - sys.platform='linux', git_executable='git'
+[2025-12-10 21:23:21,441][git.cmd][DEBUG] - Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/root/NavRL, stdin=None, shell=False, universal_newlines=False)
+[2025-12-10 21:23:21,612][urllib3.connectionpool][DEBUG] - Starting new HTTPS connection (1): api.wandb.ai:443
+[2025-12-10 21:23:22,462][urllib3.connectionpool][DEBUG] - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+[2025-12-10 21:23:22,467][urllib3.connectionpool][DEBUG] - Starting new HTTPS connection (1): api.wandb.ai:443
+[2025-12-10 21:23:23,112][urllib3.connectionpool][DEBUG] - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+[2025-12-10 21:23:23,154][git.util][DEBUG] - sys.platform='linux', git_executable='git'
+[2025-12-10 21:23:23,157][git.cmd][DEBUG] - Popen(['git', 'cat-file', '--batch-check'], cwd=/root/NavRL, stdin=<valid stream>, shell=False, universal_newlines=False)
+[2025-12-10 21:25:40,446][trimesh.util][DEBUG] - falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+[2025-12-10 21:25:41,131][root][INFO] - Reading Hummingbird's params from /root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/robots/assets/usd/hummingbird.yaml.
+[2025-12-10 21:25:42,471][trimesh.util][DEBUG] - 2 items cleared from cache: ['face_normals', 'triangles']
+[2025-12-10 21:26:14,530][root][INFO] - Default parameters:
+Mass: [[0.6800000071525574]]
+Inertia: [[0.007000000681728125, 0.007000000681728125, 0.011999999172985554]]
+Thrust2Weight: [[0.8999204039573669, 0.8999204039573669, 0.8999204039573669, 0.8999204039573669]]
+Force2Moment: [[62.499996185302734, 62.499996185302734, 62.499996185302734, 62.499996185302734]]

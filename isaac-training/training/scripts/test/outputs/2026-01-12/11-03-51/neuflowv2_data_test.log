@@ -1,0 +1,10 @@
+[2026-01-12 11:03:51,654][ogn_registration][INFO] - Looking for Python nodes to register in omni.physx.fabric-105.1.10-5.1
+[2026-01-12 11:03:51,655][ogn_registration][INFO] -  -> Registered nodes from module omni.physxfabric at /root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/extsPhysics/omni.physx.fabric-105.1.10-5.1
+[2026-01-12 11:03:51,655][ogn_registration][INFO] - Registering nodes in /root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/extsPhysics/omni.physx.fabric-105.1.10-5.1 imported as omni.physxfabric
+[2026-01-12 11:03:51,655][ogn_registration][INFO] - Registering Python Node Types from omni.physxfabric at /root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/extsPhysics/omni.physx.fabric-105.1.10-5.1 in omni.physx.fabric
+[2026-01-12 11:03:51,655][ogn_registration][INFO] - ========================================================================================================================
+[2026-01-12 11:03:51,657][ogn_registration][INFO] - No dependency on omni.graph, therefore no nodes to register in omni.physx.fabric
+[2026-01-12 11:03:51,658][ogn_registration][INFO] - ...None found, no registration to do
+[2026-01-12 11:03:51,658][ogn_registration][INFO] - ...Skipping: No OmniGraph presence in the module omni.physxfabric - No nodes in this module, do not remember it
+[2026-01-12 11:03:51,658][ogn_registration][INFO] - OGN register omni.physx.fabric-105.1.10-5.1 took 3510086.000000
+[2026-01-12 11:03:51,831][root][INFO] - Reading Hummingbird's params from /root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/robots/assets/usd/hummingbird.yaml.

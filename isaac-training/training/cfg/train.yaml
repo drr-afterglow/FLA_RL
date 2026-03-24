@@ -1,0 +1,55 @@
+defaults:
+  - _self_
+  - drone
+  - ppo
+  - sim
+
+headless: True
+device: "cuda:0"
+seed: 0
+
+# Total Training Length
+max_frame_num: 2e8 
+eval_interval: 1500 
+save_interval: 1500
+
+# Training Environment
+env:
+  num_envs: 512 
+  max_episode_length: 2200
+  env_spacing: 0.0 
+  num_obstacles: 200
+
+env_dyn:
+  num_obstacles: 0 
+  vel_range: [0.2, 0.5]
+
+viewer:
+  eye: [0., -55., 22.]
+  lookat: [0., 0.0, 1.5]
+  resolution: [1280, 720]
+
+wandb:
+  project: FLA_RL
+  name: FLA_RL/no_cbf
+  entity: rongrongdeng862-jilin-university 
+  mode: online # offline
+  run_id: s0y37be7 #kw9xf9k9 断点续训
+
+checkpoint: /root/NavRL/isaac-training/training/scripts/wandb/run-20260319_161447-s0y37be7/files/checkpoint_1500.pt
+
+# ---- Curriculum Schedule ----
+curriculum:
+  enabled: false
+  phases:
+    - frame: 0
+      active_dyn_obs: 0       
+
+    - frame: 2.0e7
+      active_dyn_obs: 15
+      dyn_vel_range: [0.2, 0.5]
+
+    - frame: 5.0e7
+      active_dyn_obs: 40
+      dyn_vel_range: [0.2, 0.5]
+

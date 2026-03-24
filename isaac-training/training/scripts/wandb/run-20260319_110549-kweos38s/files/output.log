@@ -1,0 +1,502 @@
+[93m[1m2026-03-19 03:06:04 [28,222ms] [Warning] [omni.client.python] Detected a blocking function. This will cause hitches or hangs in the UI. Please switch to the async version:
+[93m[1m  File "/root/NavRL/isaac-training/training/scripts/train.py", line 149, in <module>
+[93m[1m  File "/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+[93m[1m  File "/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+[93m[1m  File "/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+[93m[1m  File "/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+[93m[1m  File "/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+[93m[1m  File "/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+[93m[1m  File "/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+[93m[1m  File "/root/NavRL/isaac-training/training/scripts/train.py", line 44, in main
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/training/scripts/env.py", line 7, in <module>
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/envs/__init__.py", line 35, in <module>
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/envs/pinball.py", line 43, in <module>
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/third_party/orbit/source/extensions/omni.isaac.orbit/omni/isaac/orbit/sensors/__init__.py", line 36, in <module>
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/third_party/orbit/source/extensions/omni.isaac.orbit/omni/isaac/orbit/sensors/camera/__init__.py", line 8, in <module>
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/third_party/orbit/source/extensions/omni.isaac.orbit/omni/isaac/orbit/sensors/camera/camera.py", line 22, in <module>
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/third_party/orbit/source/extensions/omni.isaac.orbit/omni/isaac/orbit/sim/__init__.py", line 29, in <module>
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/third_party/orbit/source/extensions/omni.isaac.orbit/omni/isaac/orbit/sim/converters/__init__.py", line 20, in <module>
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/third_party/orbit/source/extensions/omni.isaac.orbit/omni/isaac/orbit/sim/converters/asset_converter_base.py", line 17, in <module>
+[93m[1m  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[93m[1m  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[93m[1m  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[93m[1m  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[93m[1m  File "/root/NavRL/isaac-training/third_party/orbit/source/extensions/omni.isaac.orbit/omni/isaac/orbit/utils/assets.py", line 27, in <module>
+[93m[1m  File "/root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/exts/omni.isaac.core/omni/isaac/core/utils/nucleus.py", line 504, in get_assets_root_path
+[93m[1m  File "/root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/exts/omni.isaac.core/omni/isaac/core/utils/nucleus.py", line 191, in check_server
+[93m[1m  File "/root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/kit/extscore/omni.client/omni/client/__init__.py", line 161, in stat
+[93m[1m2026-03-19 03:08:05 [149,384ms] [Warning] [omni.isaac.core.utils.nucleus] /persistent/app/omniverse/mountedDrives setting not found
+[93m[1m2026-03-19 03:08:06 [150,480ms] [Warning] [omni.isaac.core.utils.nucleus] /persistent/app/omniverse/mountedDrives setting not found
+[93m[1m2026-03-19 03:08:06 [150,481ms] [Warning] [omni.isaac.core.utils.nucleus] /persistent/app/omniverse/mountedDrives setting not found
+[93m[1m[2026-03-19 11:08:06,465][trimesh.util][DEBUG] - falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+[93m[1m[Navigation Environment]: Initializing Env...
+[151.047s] [ext: omni.physx.fabric-105.1.10-5.1] startup
+[93m[1m2026-03-19 03:08:06 [151,116ms] [Warning] [omni.fabric.plugin] No source has valid data array=0x21f9d8e0 usdValid=0 cpuValid=0
+[93m[1m[2026-03-19 11:08:06,946][root][INFO] - Reading Hummingbird's params from /root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/robots/assets/usd/hummingbird.yaml.
+[93m[1m[INFO] Generating terrains randomly took : 0.299369 seconds
+[93m[1m[2026-03-19 11:08:07,847][trimesh.util][DEBUG] - 2 items cleared from cache: ['face_normals', 'triangles']
+~*~*~*
+~*~*~* Direct GPU Helper:
+~*~*~*   1 rigid dynamic
+~*~*~*   512 articulations, maxLinks=5
+~*~*~*
+[93m[1m2026-03-19 03:08:29 [173,409ms] [Warning] [omni.hydra.scene_delegate.plugin] Calling getBypassRenderSkelMeshProcessing for prim /Visuals/TerrainOrigin.proto0_X_line_id0 that has not been populated
+[93m[1m{'agents': {'action': torch.Size([512, 4]),
+[93m[1m            'observation': {'lidar_dynamic': torch.Size([512, 3, 6, 36]),
+[93m[1m                            'lidar_static': torch.Size([512, 1, 6, 36]),
+[93m[1m                            'state': torch.Size([512, 13])}},
+[93m[1m 'done': torch.Size([512, 1]),
+[93m[1m 'info': {'drone_state': torch.Size([512, 1, 13])},
+[93m[1m 'next': {'agents': {'observation': {'lidar_dynamic': torch.Size([512, 3, 6, 36]),
+[93m[1m                                     'lidar_static': torch.Size([512, 1, 6, 36]),
+[93m[1m                                     'state': torch.Size([512, 13])},
+[93m[1m                     'reward': torch.Size([512, 1])},
+[93m[1m          'done': torch.Size([512, 1]),
+[93m[1m          'info': {'drone_state': torch.Size([512, 1, 13])},
+[93m[1m          'stats': {'collision': torch.Size([512, 1]),
+[93m[1m                    'episode_len': torch.Size([512, 1]),
+[93m[1m                    'reach_goal': torch.Size([512, 1]),
+[93m[1m                    'return': torch.Size([512, 1]),
+[93m[1m                    'truncated': torch.Size([512, 1])},
+[93m[1m          'terminated': torch.Size([512, 1]),
+[93m[1m          'truncated': torch.Size([512, 1])},
+[93m[1m 'stats': {'collision': torch.Size([512, 1]),
+[93m[1m           'episode_len': torch.Size([512, 1]),
+[93m[1m           'reach_goal': torch.Size([512, 1]),
+[93m[1m           'return': torch.Size([512, 1]),
+[93m[1m           'truncated': torch.Size([512, 1])},
+[93m[1m 'terminated': torch.Size([512, 1]),
+[93m[1m 'truncated': torch.Size([512, 1])}
+/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/nn/modules/lazy.py:180: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+/root/NavRL/isaac-training/third_party/rl/torchrl/collectors/collectors.py:541: UserWarning: total_frames (200000000.0) is not exactly divisible by frames_per_batch (16384).This means 15872.0 additional frames will be collected.To silence this message, set the environment variable RL_WARNINGS to False.
+  warnings.warn(
+/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/_functorch/deprecated.py:61: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+  warn_deprecated('vmap', 'torch.vmap')
+/root/NavRL/isaac-training/third_party/rl/torchrl/envs/utils.py:160: UserWarning: The expected key set and actual key set differ. This will work but with a slower throughput than when the specs match exactly the actual key set in the data. Expected - Actual keys=set(),
+Actual - Expected keys={('collector', 'traj_ids'), 'beta', 'sample_log_prob', 'alpha', '_cnn_feature', '_feature', 'state_value', ('agents', 'action_normalized'), '_dynamic_obstacle_feature'}.
+  warnings.warn(
+[93m[1m['rotor_0_joint', 'rotor_1_joint', 'rotor_2_joint', 'rotor_3_joint']
+[93m[1m{'rotor_0_joint': 0, 'rotor_1_joint': 1, 'rotor_2_joint': 2, 'rotor_3_joint': 3}
+[93m[1m[2026-03-19 11:08:34,464][root][INFO] - Default parameters:
+[93m[1mMass: [[0.6800000071525574]]
+[93m[1mInertia: [[0.007000000681728125, 0.007000000681728125, 0.011999999172985554]]
+[93m[1mThrust2Weight: [[0.8999204039573669, 0.8999204039573669, 0.8999204039573669, 0.8999204039573669]]
+[93m[1mForce2Moment: [[62.499996185302734, 62.499996185302734, 62.499996185302734, 62.499996185302734]]
+[93m[1m[NavRL]: training from scratch (no checkpoint loaded)
+[93m[1mModule omni.isaac.orbit.utils.warp.kernels load on device 'cuda:0' took 2.41 ms
+Rendering: 0it [00:00, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rendering: 2200it [03:50, 11.14it/s]
+[93m[1m[2026-03-19 11:12:36,870][matplotlib][DEBUG] - matplotlib data path: /root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/exts/omni.isaac.core_archive/pip_prebundle/matplotlib/mpl-data
+[93m[1m[2026-03-19 11:12:36,876][matplotlib][DEBUG] - CONFIGDIR=/root/.config/matplotlib
+[93m[1m[2026-03-19 11:12:36,878][matplotlib][DEBUG] - interactive is False
+[93m[1m[2026-03-19 11:12:36,878][matplotlib][DEBUG] - platform is linux
+[93m[1m[2026-03-19 11:12:37,552][matplotlib][DEBUG] - CACHEDIR=/root/.cache/matplotlib
+[93m[1m[2026-03-19 11:12:37,553][matplotlib.font_manager][DEBUG] - Using fontManager instance from /root/.cache/matplotlib/fontlist-v330.json
+[93m[1m[NavRL]: evaluation done.
+[93m[1m[NavRL]: model saved at training step:  0
+[93m[1m[2026-03-19 11:12:45,264][py.warnings][WARNING] - /root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/_functorch/deprecated.py:61: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+[93m[1m  warn_deprecated('vmap', 'torch.vmap')
+Rendering: 26it [00:01, 12.49it/s]
+[93m[1m  warn_deprecated('vmap', 'torch.vmap')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rendering: 2200it [03:33, 11.02it/s]
+[93m[1m[NavRL]: evaluation done.
+[93m[1m[NavRL]: model saved at training step:  1500
+Rendering: 22it [00:01, 12.30it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rendering: 2200it [03:36, 11.20it/s]
+[93m[1m[NavRL]: evaluation done.
+[93m[1m[NavRL]: model saved at training step:  3000
+[93m[1m2026-03-19 04:22:47 [4,631,856ms] [Warning] [omni.isaac.core.articulations.articulation_view] Physics Simulation View is not created yet in order to use get_linear_velocities
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/root/NavRL/isaac-training/training/scripts/train.py", line 86, in main
+    for i, data in enumerate(collector):
+  File "/root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/utils/torchrl/collector.py", line 53, in iterator
+    tensordict_out = self.rollout() # roll out trajectory
+  File "/root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/utils/torchrl/collector.py", line 36, in rollout
+    _tensordict_out = super().rollout()
+  File "/root/NavRL/isaac-training/third_party/rl/torchrl/_utils.py", line 470, in unpack_rref_and_invoke_function
+    return func(self, *args, **kwargs)
+  File "/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/NavRL/isaac-training/third_party/rl/torchrl/collectors/collectors.py", line 943, in rollout
+    env_output, env_next_output = self.env.step_and_maybe_reset(env_input)
+  File "/root/NavRL/isaac-training/third_party/rl/torchrl/envs/common.py", line 2649, in step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/root/NavRL/isaac-training/third_party/rl/torchrl/envs/common.py", line 1410, in step
+    next_tensordict = self._step(tensordict)
+  File "/root/NavRL/isaac-training/third_party/rl/torchrl/envs/transforms/transforms.py", line 768, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/envs/isaac_env.py", line 270, in _step
+    tensordict.update(self._compute_state_and_obs())
+  File "/root/NavRL/isaac-training/training/scripts/env.py", line 536, in _compute_state_and_obs
+    self.root_state = self.drone.get_state(env_frame=False)
+  File "/root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/robots/drone/multirotor.py", line 297, in get_state
+    vel_w = self.get_velocities(True)
+  File "/root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/robots/robot.py", line 213, in get_velocities
+    return self._view.get_velocities(clone=clone)
+  File "/root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/views/__init__.py", line 282, in get_velocities
+    return super().get_velocities(indices, clone).unflatten(0, self.shape)
+  File "/root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/exts/omni.isaac.core/omni/isaac/core/articulations/articulation_view.py", line 1246, in get_velocities
+    return self._backend_utils.tensor_cat([linear_velocities, angular_velocities], dim=-1, device=self._device)
+  File "/root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/exts/omni.isaac.core/omni/isaac/core/utils/torch/tensor.py", line 63, in tensor_cat
+    return torch.cat(data, dim=dim)
+TypeError: expected Tensor as element 0 in argument 0, but got NoneType
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

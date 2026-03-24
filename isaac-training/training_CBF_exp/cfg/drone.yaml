@@ -1,0 +1,8 @@
+drone:  
+  model_name: "hummingbird"
+
+sensor:
+  lidar_range: 4.   #雷达最大探测距离
+  lidar_vfov: [-10, 20.] # degree激光雷达垂直视场角
+  lidar_vbeams: 4 # number of vertical beams垂直方向的激光束数量
+  lidar_hres: 10. # degree水平分辨率

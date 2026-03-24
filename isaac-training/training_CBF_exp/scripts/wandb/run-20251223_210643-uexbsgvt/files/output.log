@@ -1,0 +1,425 @@
+[Test] 初始化环境 (Batch Size: 200)...
+[Navigation Environment]: Initializing Env...
+[153.099s] [ext: omni.physx.fabric-105.1.10-5.1] startup
+[93m[1m2025-12-23 13:06:47 [153,197ms] [Warning] [omni.fabric.plugin] No source has valid data array=0x1615b4a0 usdValid=0 cpuValid=0
+[93m[1m[2025-12-23 21:06:47,101][root][INFO] - Reading Hummingbird's params from /root/NavRL/isaac-training/third_party/OmniDrones/omni_drones/robots/assets/usd/hummingbird.yaml.
+[INFO] Generating terrains randomly took : 0.779577 seconds
+[2025-12-23 21:06:48,981][trimesh.util][DEBUG] - 2 items cleared from cache: ['face_normals', 'triangles']
+~*~*~*
+~*~*~* Direct GPU Helper:
+~*~*~*   200 articulations, maxLinks=5
+~*~*~*
+/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/nn/modules/lazy.py:180: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+Rendering: 0it [00:00, ?it/s]
+[93m[1m2025-12-23 13:07:47 [213,259ms] [Warning] [omni.hydra.scene_delegate.plugin] Calling getBypassRenderSkelMeshProcessing for prim /Visuals/TerrainOrigin.proto0_X_line_id0 that has not been populated
+{'agents': {'action': torch.Size([200, 4]),
+            'observation': {'direction': torch.Size([200, 1, 3]),
+                            'dynamic_obstacle': torch.Size([200, 1, 5, 10]),
+                            'lidar': torch.Size([200, 1, 36, 4]),
+                            'state': torch.Size([200, 8])}},
+ 'done': torch.Size([200, 1]),
+ 'info': {'drone_state': torch.Size([200, 1, 13])},
+ 'next': {'agents': {'cbf_cost': torch.Size([200, 1]),
+                     'observation': {'direction': torch.Size([200, 1, 3]),
+                                     'dynamic_obstacle': torch.Size([200, 1, 5, 10]),
+                                     'lidar': torch.Size([200, 1, 36, 4]),
+                                     'state': torch.Size([200, 8])},
+                     'reward': torch.Size([200, 1])},
+          'done': torch.Size([200, 1]),
+          'info': {'drone_state': torch.Size([200, 1, 13])},
+          'stats': {'cbf_cost': torch.Size([200, 1]),
+                    'collision': torch.Size([200, 1]),
+                    'episode_len': torch.Size([200, 1]),
+                    'reach_goal': torch.Size([200, 1]),
+                    'return': torch.Size([200, 1]),
+                    'truncated': torch.Size([200, 1])},
+          'terminated': torch.Size([200, 1]),
+          'truncated': torch.Size([200, 1])},
+ 'stats': {'cbf_cost': torch.Size([200, 1]),
+           'collision': torch.Size([200, 1]),
+           'episode_len': torch.Size([200, 1]),
+           'reach_goal': torch.Size([200, 1]),
+           'return': torch.Size([200, 1]),
+           'truncated': torch.Size([200, 1])},
+ 'terminated': torch.Size([200, 1]),
+ 'truncated': torch.Size([200, 1])}
+['rotor_0_joint', 'rotor_1_joint', 'rotor_2_joint', 'rotor_3_joint']
+{'rotor_0_joint': 0, 'rotor_1_joint': 1, 'rotor_2_joint': 2, 'rotor_3_joint': 3}
+[2025-12-23 21:07:50,026][root][INFO] - Default parameters:
+Mass: [[0.6800000071525574]]
+Inertia: [[0.007000000681728125, 0.007000000681728125, 0.011999999172985554]]
+Thrust2Weight: [[0.8999204039573669, 0.8999204039573669, 0.8999204039573669, 0.8999204039573669]]
+Force2Moment: [[62.499996185302734, 62.499996185302734, 62.499996185302734, 62.499996185302734]]
+[Test] 成功加载权重: /root/NavRL/isaac-training/training/scripts/wandb/run-20251223_165015-syjto24q/files/checkpoint_900.pt
+[Test] 开始分批评估 (共 5 轮，每轮 200 个环境)...
+============================================================
+Rendering: 0it [00:00, ?it/s]/root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/_functorch/deprecated.py:61: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+  warn_deprecated('vmap', 'torch.vmap')
+Module omni.isaac.orbit.utils.warp.kernels load on device 'cuda:0' took 3.72 ms
+/root/NavRL/isaac-training/third_party/rl/torchrl/envs/utils.py:160: UserWarning: The expected key set and actual key set differ. This will work but with a slower throughput than when the specs match exactly the actual key set in the data. Expected - Actual keys=set(),
+Actual - Expected keys={'beta', 'state_value', '_cnn_feature', ('agents', 'action_normalized'), '_dynamic_obstacle_feature', 'alpha', '_feature', 'sample_log_prob'}.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rendering: 2200it [02:13, 15.77it/s]
+[2025-12-23 21:10:19,626][matplotlib][DEBUG] - matplotlib data path: /root/autodl-tmp/isaac_sim-2023.1.0-hotfix.1/exts/omni.isaac.core_archive/pip_prebundle/matplotlib/mpl-data
+[2025-12-23 21:10:19,633][matplotlib][DEBUG] - CONFIGDIR=/root/.config/matplotlib
+[2025-12-23 21:10:19,635][matplotlib][DEBUG] - interactive is False
+[2025-12-23 21:10:19,636][matplotlib][DEBUG] - platform is linux
+[2025-12-23 21:10:19,699][matplotlib][DEBUG] - CACHEDIR=/root/.cache/matplotlib
+
+Rendering: 2200it [02:30, 15.77it/s]
+Rendering: 4it [00:00, 15.85it/s]
+   Result: Success=34.5%, Collision=4.5%, Len=2154.6
+-> Batch 2/5 (Seed: 100) running...
+[2025-12-23 21:10:26,938][py.warnings][WARNING] - /root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/_functorch/deprecated.py:61: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+  warn_deprecated('vmap', 'torch.vmap')
+[93m[1m2025-12-23 13:10:26 [373,042ms] [Warning] [py.warnings] /root/miniconda3/envs/NavRL/lib/python3.10/site-packages/torch/_functorch/deprecated.py:61: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rendering: 2200it [02:23, 15.03it/s]
+Rendering: 0it [00:00, ?it/s]
+   Result: Success=34.5%, Collision=2.5%, Len=2165.7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rendering: 2200it [02:21, 16.46it/s]
+   Result: Success=31.0%, Collision=7.0%, Len=2118.9
+-> Batch 4/5 (Seed: 300) running...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rendering: 2200it [02:29, 15.77it/s]
+   Result: Success=28.0%, Collision=8.0%, Len=2124.4
+-> Batch 5/5 (Seed: 400) running...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rendering: 2200it [02:26, 15.42it/s]
+   Result: Success=26.0%, Collision=8.5%, Len=2106.5
+============================================================
+评估完成! 总样本数: 1000
+------------------------------------------------------------
+最终平均指标 (Average over 5 batches):
+  成功率 (Success Rate):    30.80%
+  碰撞率 (Collision Rate):  6.10%
+  超时率 (Timeout Rate):    63.70%
+  平均回报 (Avg Return):    4008.3471
+  平均步长 (Avg Length):    2134.04
+============================================================

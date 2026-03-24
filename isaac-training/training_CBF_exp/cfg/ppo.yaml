@@ -1,0 +1,28 @@
+algo:
+  feature_extractor:
+    learning_rate: 3e-4
+    dyn_obs_num: 5
+  
+  actor:
+    learning_rate: 3e-4
+    clip_ratio: 0.1
+    action_limit: 2.0 # m/s
+  
+  critic:
+    learning_rate: 3e-4
+    clip_ratio: 0.1
+  
+  entropy_loss_coefficient: 1e-3 # encourage exploration
+
+
+  training_frame_num: 128  #单次单个无人机采集的训练帧数
+  training_epoch_num: 5   #重复训练次数
+  num_minibatches: 32      # split into N minibatches
+
+  safety:
+    enabled: true             # 启用 CBF 安全约束
+    target_cost_limit: 0.12   # [epsilon] 允许的平均 CBF 违规值 (越小越安全)
+    init_nu: 0.1              # [nu] 拉格朗日乘子初始值
+    nu_learning_rate: 0.01    # [lr] nu 的调整步长
+    cost_gamma: 1.0           # [gamma] CBF公式参数：h = d_dot + gamma * (d - r_safe)
+    r_safe: 0.7               # [r_safe] CBF公式参数：安全距离
